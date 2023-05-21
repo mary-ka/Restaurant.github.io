@@ -442,6 +442,7 @@ hero .slider-btn { display: none; }
 .hero-btn img {
   margin-inline: auto;
   margin-block-end: 6px;
+ opacity:0.6;
 }
 
 .hero-btn .span {
