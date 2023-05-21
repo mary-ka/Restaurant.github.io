@@ -396,11 +396,11 @@ hero .slider-btn { display: none; }
  
 }
 
-.hero .slider-item.active {
-  opacity: 0.5;
+.hero .slider-item.active{
+  opacity: 1;
   visibility: visible;
 }
-
+.hero .slider-item.active img{ opacity: 0.5;}
 .hero .slider-bg {
   position: absolute;
   top: 0;
