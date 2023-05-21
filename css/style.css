@@ -393,10 +393,11 @@ hero .slider-btn { display: none; }
   visibility: hidden;
   transition: var(--transition-3);
   z-index: 1;
+ 
 }
 
 .hero .slider-item.active {
-  opacity: 1;
+  opacity: 0.5;
   visibility: visible;
 }
 
@@ -442,7 +443,7 @@ hero .slider-btn { display: none; }
 .hero-btn img {
   margin-inline: auto;
   margin-block-end: 6px;
- opacity:0.6;
+ 
 }
 
 .hero-btn .span {
